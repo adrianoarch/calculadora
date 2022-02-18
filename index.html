@@ -19,7 +19,7 @@
       <section class="grid grid-template-areas">
         <input class="display" id="inputValue" autofocus />
 
-        <button onclick="resetDisplay()" class="item clear button-operations">AC</button>
+        <button onclick="resetDisplay()" class="item clear button-operations" id="reset">AC</button>
         <button onclick="invertValue()" class="item plus-minus button-operations">+/-</button>
         <button onclick="percentageValue()" class="item percent button-operations">%</button>
         <button
@@ -82,7 +82,7 @@
         <button onclick="insertValues('.')" class="item point button-numbers">
           ,
         </button>
-        <button onclick="calculate()" class="item equal button-operations-right">=</button>
+        <button onclick="calculate()" class="item equal button-operations-right" id="result">=</button>
       </section>
     </div>
 
